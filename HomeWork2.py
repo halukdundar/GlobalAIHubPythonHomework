@@ -23,14 +23,14 @@ ListOfPersonal.append(last_name)
 ListOfPersonal.append(age)
 ListOfPersonal.append(year)
 
-print("****************")
-print("User information is below")
-print("****************")
 
-for i in ListOfPersonal:
+print("User information is below")
+print("__________________________)
+
+for i in ListOfPersonal:                           #Get the user's information using the for loop
     print(i)
 
-if age<18:
+if age<18:                                        #If he is under 18
     print("You can't go out because it's too dangerous.")
-else:
+else:                                              #If he is over 18
     print("You can go out to the street.")   
