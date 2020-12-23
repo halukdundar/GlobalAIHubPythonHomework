@@ -17,10 +17,6 @@ age           = int(input("Enter Age :"))
 
 year          = int(input("Enter Date of Birth(year) :"))
 
-if year == age:
-    print("You entered your age incorrectly!")
-    print("I'm correcting your age")
-    age = year
    
 ListOfPersonal.append(first_name)
 ListOfPersonal.append(last_name)
@@ -28,12 +24,13 @@ ListOfPersonal.append(age)
 ListOfPersonal.append(year)
 
 print("****************")
-print("User information")
+print("User information is below")
 print("****************")
+
 for i in ListOfPersonal:
     print(i)
 
-if age>18:
+if age<18:
     print("You can't go out because it's too dangerous.")
 else:
     print("You can go out to the street.")   
