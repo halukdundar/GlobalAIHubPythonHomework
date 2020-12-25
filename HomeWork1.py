@@ -1,3 +1,8 @@
+'''
+Kullanıcıdan 5 değer alınıp, alınan değerler ekrana yazdırılacak ve değerlerin türü ekrana yazdırılacak.
+f-string ve format kullanılacak.
+'''
+
 one = int(input("1st Value :"))
 two = input("2nd Value :")
 three = int(input("3rd Value :"))
