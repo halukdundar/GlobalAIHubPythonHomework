@@ -1,5 +1,5 @@
 '''
-Kullanıcıdan 5 değer alınıp, alınan değerler ekrana yazdırılacak ve değerlerin türü ekrana yazdırılacak.
+Kullanıcıdan 5 değer alınarak bu değerlerin türü ve kendileri ekrana yazıdrırlacaktır.
 f-string ve format kullanılacak.
 '''
 
