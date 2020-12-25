@@ -25,7 +25,7 @@ ListOfPersonal.append(year)
 
 
 print("User information is below")
-print("__________________________)
+
 
 for i in ListOfPersonal:                           #Get the user's information using the for loop
     print(i)
