@@ -1,6 +1,6 @@
-#Haluk Dündar, Global AI hub final Project
+#Haluk DÃ¼ndar, Global AI hub final Project
 
-studentName = "Haluk Dündar" 
+studentName = "Haluk DÃ¼ndar" 
 counter = 3 
 course_List = [] #empty list
 notes = {} #empty dictionary
